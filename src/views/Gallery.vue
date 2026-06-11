@@ -100,6 +100,7 @@ onMounted(() => {
       <SectionIntro
         :section="currentSection"
         :exhibit-count="exhibits.length"
+        :exhibits="exhibits"
       />
 
       <div v-if="exhibits.length === 0" class="text-center py-16 bg-gray-900/30 rounded-lg border border-gray-800">
